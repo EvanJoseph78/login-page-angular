@@ -1,15 +1,27 @@
-<main>
-  <section>
+<main class="flex items-center justify-center bg-gray-bg h-screen w-screen">
+  <section class="h-full w-1/4 flex flex-col items-center justify-center bg-white px-8 gap-6">
     <img src="/assets/svg/logo.svg" alt="">
-    <h2></h2>
-    <button type=""></button>
-    <div>
-      <span>or</span>
+    <h2 class="text-md font-bold">{{title}}</h2>
+
+    <div class="w-full flex items-center flex-col gap-8">
+
+      <button type=""
+        class="rounded text-md font-semibold bg-primary-color text-white w-full px-4 py-2 shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] cursor-pointer ">{{primaryBtnText}}</button>
+
+      <div class="text-text-color flex w-full items-center gap-2">
+        <div class="border w-full"></div>
+        <span class="">OR</span>
+        <div class="border w-full"></div>
+      </div>
+
+      <button type=""
+        class="rounded text-md font-semibold border border-primary-color text-primary-color w-full px-4 py-2 shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] cursor-pointer ">{{secondaryBtnText}}</button>
+
+
     </div>
-    <button type=""></button>
   </section>
 
-  <section>
+  <section class="h-full flex flex-col items-center justify-center gap-4 w-3/4">
     <h2>You should, MoveIt</h2>
     <img src="/assets/svg/main-illustration.svg" alt="">
   </section>

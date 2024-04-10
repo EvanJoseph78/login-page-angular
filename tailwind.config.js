@@ -19,6 +19,10 @@ module.exports = {
           '900': '#1d2672',
           '950': '#151a51',
         },
+        'primary-color': '#7001FD',
+        'text-color': '#555555',
+        'secondary-color': '#1E2772',
+        'gray-bg': '#EEEEEE'
       },
     },
     plugins: [],
