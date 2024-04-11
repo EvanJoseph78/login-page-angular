@@ -1,2 +1,18 @@
-<app-default-login-layout title="Login into your account" primaryBtnText="Login now"
-  secondaryBtnText="Signup Now"></app-default-login-layout>
+<app-default-login-layout title="Login into your account" primaryBtnText="Login now" secondaryBtnText="Signup Now">
+
+  <form [formGroup]="loginForm" class="w-full flex flex-col gap-8 ">
+    <app-primary-input formControlName="email" inputName="email" type="email" label="Email"
+      placeHolder="user@email.com">
+      <img src="/assets/svg/email-icon.svg" alt="">
+    </app-primary-input>
+
+    <app-primary-input formControlName="password" inputName="passoword" type="password" label="Your password">
+      <img src="/assets/svg/password-icon.svg" alt="">
+    </app-primary-input>
+
+    <span class="text-sm text-end underline">Forgot password?</span>
+
+  </form>
+
+
+</app-default-login-layout>

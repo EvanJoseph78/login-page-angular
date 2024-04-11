@@ -22,7 +22,8 @@ module.exports = {
         'primary-color': '#7001FD',
         'text-color': '#555555',
         'secondary-color': '#1E2772',
-        'gray-bg': '#EEEEEE'
+        'gray-bg': '#EEEEEE',
+        'gray-secondary-bg': '#F1F3F6'
       },
     },
     plugins: [],

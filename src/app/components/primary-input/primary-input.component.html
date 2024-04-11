@@ -1,0 +1,14 @@
+<div class="">
+
+  <label [for]="inputName" class="text-text-color">{{label}}</label>
+
+  <div class="flex overflow-hidden rounded-md">
+    <input class="text-text-color bg-gray-secondary-bg text-md px-4 pb-2 pt-4 w-full" [type]="type"
+      [placeholder]="placeHolder" [value]="value" (input)="onInput($event)">
+
+    <div class="p-4 bg-primary-color">
+      <ng-content></ng-content>
+    </div>
+  </div>
+
+</div>
