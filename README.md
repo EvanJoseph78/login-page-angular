@@ -1,27 +1,45 @@
-# LoginPage
+# Página de Login e Cadastro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+Este é um projeto de página de login e cadastro desenvolvido com Angular e estilizado com Tailwind CSS. O objetivo deste projeto é fornecer uma aplicação web moderna e responsiva para autenticação de usuários.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Autenticação de Usuário**: Os usuários podem inserir suas credenciais de login para acessar a aplicação.
+- **Cadastro de Novos Usuários**: Os usuários podem se cadastrar fornecendo informações básicas.
+- **Validação de Formulário**: Os formulários são validados para garantir que os usuários insiram informações corretas.
+- **Responsividade**: A aplicação é totalmente responsiva e se adapta a diferentes tamanhos de tela.
 
-## Code scaffolding
+## Estrutura do Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto está estruturado da seguinte forma:
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Como Utilizar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter o Angular CLI instalado. Caso não tenha, instale-o utilizando o comando `npm install -g @angular/cli`.
+3. No terminal, navegue até a pasta raiz do projeto.
+4. Instale as dependências do projeto utilizando o comando `npm install`.
+5. Execute a aplicação Angular com o comando `ng serve`.
+6. Abra um navegador da web e vá para `http://localhost:4200`.
+7. Você verá a página de login e a página de cadastro.
+8. Insira suas credenciais ou cadastre-se conforme necessário.
 
-## Running end-to-end tests
+## Imagens do Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Aqui estão as imagens da página de login e da página de cadastro:
 
-## Further help
+- **Página de Login**:
+![Página de Login](src/assets/screenshots/login.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Página de Cadastro**:
+![Página de Cadastro](src/assets/screenshots/signup.png)
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar pull requests com melhorias, correções de bugs ou novas funcionalidades. Antes de enviar um pull request, por favor, abra uma issue para discutir as mudanças propostas.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
